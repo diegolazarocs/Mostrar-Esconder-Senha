@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "outfit";
+}
+body {
+  background-color: tomato;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2{
+    background-color: #fff;
+    color: tomato;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+div {
+  position: relative;
+  width: 512px;
+}
+input {
+  width: 100%;
+  line-height: 40px;
+  outline: 0;
+  border: 0;
+  font-size: 25px;
+  padding: 10px 50px 10px 20px;
+  border-radius: 15px;
+  color: tomato;
+}
+div i {
+  font-size: 60px;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  color: tomato;
+}
